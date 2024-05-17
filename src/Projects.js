@@ -10,7 +10,7 @@ const Projects = () => {
                     <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
                         <div className="group relative">
                             <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                                <img src="sultanby-web/TR.png" alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." className="h-full w-full object-cover object-center" />
+                                <img src={`${process.env.PUBLIC_URL}/TR.png`} alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." className="h-full w-full object-cover object-center" />
                             </div>
                             <h3 className="mt-6 text-sm text-gray-500">
                                 <a href="https://tonrunner.crolux.online">
@@ -33,7 +33,7 @@ const Projects = () => {
                         </div>
                         <div className="group relative">
                             <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                                <img src="sultanby-web/CR.png" alt="Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant." className="h-full w-full object-cover object-center" />
+                                <img src={`${process.env.PUBLIC_URL}/CR.png`} alt="Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant." className="h-full w-full object-cover object-center" />
                             </div>
                             <h3 className="mt-6 text-sm text-gray-500">
                                 <a href="https://crolux.online/">
@@ -57,7 +57,7 @@ const Projects = () => {
                         
                         <div className="group relative">
                             <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                                <img src="sultanby-web/MR.png" alt="Collection of four insulated travel bottles on wooden shelf." className="h-full w-full object-cover object-center" />
+                                <img src={`${process.env.PUBLIC_URL}/MR.png`} alt="Collection of four insulated travel bottles on wooden shelf." className="h-full w-full object-cover object-center" />
                             </div>
                             <h3 className="mt-6 text-sm text-gray-500">
                                 <a href="https://minireddit-sultanby.surge.sh/">
@@ -84,7 +84,7 @@ const Projects = () => {
                     <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
                         <div className="group relative">
                             <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                                <img src="sultanby-web/SP.png" alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." className="h-full w-full object-cover object-center" />
+                                <img src={`${process.env.PUBLIC_URL}/SP.png`} alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." className="h-full w-full object-cover object-center" />
                             </div>
                             <h3 className="mt-6 text-sm text-gray-500">
                                 <a href="http://jammming-sultanby.surge.sh/">
@@ -104,7 +104,7 @@ const Projects = () => {
                         </div>
                         <div className="group relative">
                             <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                                <img src="sultanby-web/FC.png" alt="Collection of four insulated travel bottles on wooden shelf." className="h-full w-full object-cover object-center" />
+                                <img src={`${process.env.PUBLIC_URL}/SP.png`} alt="Collection of four insulated travel bottles on wooden shelf." className="h-full w-full object-cover object-center" />
                             </div>
                             <h3 className="mt-6 text-sm text-gray-500">
                                 <a href="https://flashcards-sultanby.surge.sh/">
@@ -127,7 +127,7 @@ const Projects = () => {
                         </div>
                         <div className="group relative">
                             <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                                <img src="sultanby-web/TT.png" alt="Collection of four insulated travel bottles on wooden shelf." className="h-full w-full object-cover object-center" />
+                                <img src={`${process.env.PUBLIC_URL}/TT.png`} alt="Collection of four insulated travel bottles on wooden shelf." className="h-full w-full object-cover object-center" />
                             </div>
                             <h3 className="mt-6 text-sm text-gray-500">
                                 <a href="https://sultanby.github.io/table_tennis_club/">
