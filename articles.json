@@ -1,0 +1,16 @@
+[
+    {
+      "id": "1",
+      "title": "First Article",
+      "summary": "This is the summary of the first article.",
+      "content": "This is the content of the first article.",
+      "date": "Jun 2"
+    },
+    {
+      "id": "2",
+      "title": "Second Article",
+      "summary": "This is the summary of the second article.",
+      "content": "This is the content of the second article.",
+      "date": "Jun 2"
+    }
+  ]
