@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sultanby-web/static/css/main.4eea117b.css",
-    "main.js": "/sultanby-web/static/js/main.df43fa89.js",
+    "main.css": "/sultanby-web/static/css/main.6237997b.css",
+    "main.js": "/sultanby-web/static/js/main.8362ffb8.js",
     "static/js/453.842b9cc5.chunk.js": "/sultanby-web/static/js/453.842b9cc5.chunk.js",
     "index.html": "/sultanby-web/index.html",
-    "main.4eea117b.css.map": "/sultanby-web/static/css/main.4eea117b.css.map",
-    "main.df43fa89.js.map": "/sultanby-web/static/js/main.df43fa89.js.map",
+    "main.6237997b.css.map": "/sultanby-web/static/css/main.6237997b.css.map",
+    "main.8362ffb8.js.map": "/sultanby-web/static/js/main.8362ffb8.js.map",
     "453.842b9cc5.chunk.js.map": "/sultanby-web/static/js/453.842b9cc5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4eea117b.css",
-    "static/js/main.df43fa89.js"
+    "static/css/main.6237997b.css",
+    "static/js/main.8362ffb8.js"
   ]
 }
