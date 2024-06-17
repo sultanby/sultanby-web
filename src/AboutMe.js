@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 const AboutMe = () => {
     return (
-        <div className="flow-root text-4xl mt-10 h-screen">
-            <dl className="-my-3">
+        <div className="mt-10 h-screen">
+            <dl className="-my-3 flow-root xs:text-2xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl 3xl:text-4xl text-2xl">
                 <div className="grid grid-cols-1 gap-1 p-3 pb-10 sm:grid-cols-3 sm:gap-24">
-                    <dt className="font-bold text-black my-auto">yulia sultanbekova</dt>
+                    <dt className="font-bold  text-black my-auto">yulia sultanbekova</dt>
                     <dd className="sm:col-span-2 relative">
                         <div className="flex items-center group cursor-pointer">
                             <img className="w-16 h-16 rounded-full bg-navajo group-hover:hidden" src={`${process.env.PUBLIC_URL}/thumb.png`} alt="Rounded avatar" />
@@ -20,17 +20,16 @@ const AboutMe = () => {
                         </div>
                     </dd>
                 </div>
-
                 <div className="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-24">
                     <dt className="font-bold text-black">a fullstack developer</dt>
-                    <dd className="text-gray sm:col-span-2">
+                    <dd className="text-gray  sm:col-span-2">
                         with a unique background in chemical engineering skilled in creating advanced web and application solutions. my expertise is further enriched by ongoing skill advancement and effective multilingual communication in the dynamic tech field.
                     </dd>
                 </div>
 
                 <div className="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-24">
                     <dt></dt>
-                    <dd className="text-gray text-2xl sm:col-span-2 underline">
+                    <dd className="text-gray  sm:col-span-2 underline">
                         <div><Link to={`${process.env.PUBLIC_URL}/blog`}>read my blog</Link></div>
                     </dd>
                 </div>

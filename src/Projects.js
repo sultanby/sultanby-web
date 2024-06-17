@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div className="flow-root mt-10" id='works'>
+        <div className="flow-root mt-10 " id='works'>
             <dl className="-my-3">
                 <h2 className="px-3 text-3xl text-black font-bold lg:text-4xl">+projects</h2>
                 <div className="grid grid-cols-1 py-10 px-3 border-b-2 sm:grid-cols-6 items-center">

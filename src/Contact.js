@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className="flow-root text-4xl mt-10" id='contact'>
+        <div className="flow-root text-3xl mt-10" id='contact'>
             <dl className="-my-3">
                 <div className="grid grid-cols-1 gap-1 p-3 pb-10 sm:grid-cols-3 sm:gap-24">
                     <dt className="font-bold text-black">+collaborate</dt>

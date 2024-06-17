@@ -1,9 +1,9 @@
 [
     {
       "id": "1",
-      "title": "First Article",
+      "title": "deploy on Netlify",
       "summary": "This is the summary of the first article.",
-      "content": "This is the content of the first article.",
+      "content": "🚀 Here's a straightforward guide to help you deploy your project to Netlify without a GitHub repo, using the power of the Netlify CLI. Follow these steps and get your project live in no time!\n\n1. **Login to Netlify**\n   - Start by logging into your Netlify account:\n\n```sh\nnetlify login\n```\n\n2. **Unlink Any Previous Project**\n   - Working with multiple projects? Ensure a clean slate by unlinking any previous project:\n\n```sh\nnetlify unlink\n```\n\n3. **Link Your Current Project**\n   - Link up your current project simply by executing:\n\n```sh\nnetlify link\n```\n\n4. **Deploy Your Site**\n   - Ready to see some action? Deploy your site with:\n\n```sh\nnetlify deploy\n```\n\n5. **Select Build Directory**\n   - Pick the right directory containing your build (it might be `dist`, `build`, or something else).\n\n6. **Go Live**\n   - To go fully live, run:\n\n```sh\nnetlify deploy --prod\n```\n\n7. **Check Your Live Site**\n   - Take a moment to revel in your success and check your live site using the provided link.\n\n8. **Continuous Deployment (Optional)**\n   - If you wish to connect to a Git provider in the future for continuous deployment, you can simply run:\n\n```sh\nnetlify init\n```\n\nHappy deploying! 🎉",
       "date": "Jun 2"
     },
     {
@@ -14,3 +14,6 @@
       "date": "Jun 2"
     }
   ]
+
+
+  

@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import ReactMarkdown from 'react-markdown';
+import rehypeHighlight from 'rehype-highlight';
+import 'highlight.js/styles/github.css';
 
 function Article() {
   const { id } = useParams();
@@ -21,7 +24,7 @@ function Article() {
   return (
     <div className="w-3/5 mx-auto">
       <h1 className="my-12 text-3xl text-black font-bold lg:text-4xl">{article.title}</h1>
-      <p>{article.content}</p>
+      <ReactMarkdown rehypePlugins={[rehypeHighlight]}>{article.content}</ReactMarkdown>
     </div>
   );
 }
