@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
 import Skills from './Skills';
@@ -10,6 +10,7 @@ import Article from './Article';
 
 function App() {
   const [showNavbar, setShowNavbar] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,51 +21,16 @@ function App() {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    if (location.pathname === `${process.env.PUBLIC_URL}/` || location.pathname === `${process.env.PUBLIC_URL}`) {
+      window.addEventListener('scroll', handleScroll);
+    } else {
+      setShowNavbar(true);
+    }
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
-
-  useEffect(() => {
-    const scrollLinks = document.querySelectorAll('a[href^="#"]');
-
-    scrollLinks.forEach(link => {
-      link.addEventListener('click', (e) => {
-        e.preventDefault();
-        const target = document.querySelector(link.getAttribute('href'));
-        if (target) {
-          const targetPosition = target.getBoundingClientRect().top + window.scrollY;
-          const startPosition = window.scrollY;
-          const distance = targetPosition - startPosition;
-          const duration = 1000;
-          let start = null;
-
-          window.requestAnimationFrame(function step(timestamp) {
-            if (!start) start = timestamp;
-            const progress = timestamp - start;
-            window.scrollTo(0, easeInOutCubic(progress, startPosition, distance, duration));
-            if (progress < duration) {
-              window.requestAnimationFrame(step);
-            }
-          });
-        }
-      });
-    });
-
-    return () => {
-      scrollLinks.forEach(link => {
-        link.removeEventListener('click', () => {});
-      });
-    };
-  }, []);
-
-  const easeInOutCubic = (t, b, c, d) => {
-    t /= d / 2;
-    if (t < 1) return c / 2 * t * t * t + b;
-    t -= 2;
-    return c / 2 * (t * t * t + 2) + b;
-  };
+  }, [location.pathname]);
 
   const HomePage = () => (
     <div>
@@ -76,17 +42,23 @@ function App() {
   );
 
   return (
+    <div className='bg-base'>
+      {showNavbar && <Navbar />}
+      <Routes>
+        <Route path={`${process.env.PUBLIC_URL}/`} element={<HomePage />} />
+        <Route path={`${process.env.PUBLIC_URL}/blog`} element={<Blog />} />
+        <Route path="/article/:id" element={<Article />} />
+      </Routes>
+    </div>
+  );
+}
+
+function AppWithRouter() {
+  return (
     <Router>
-      <div className='bg-base'>
-        {showNavbar && <Navbar />}
-        <Routes>
-          <Route path={`${process.env.PUBLIC_URL}/`} element={<HomePage />} />
-          <Route path={`${process.env.PUBLIC_URL}/blog`} element={<Blog />} />
-          <Route path="/article/:id" element={<Article />} />
-        </Routes>
-      </div>
+      <App />
     </Router>
   );
 }
 
-export default App;
+export default AppWithRouter;

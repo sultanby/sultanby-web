@@ -122,7 +122,7 @@ const Projects = () => {
                     <dd className="flex flex-col justify-center items-end">
                         <a
                             className="group relative inline-flex items-center overflow-hidden rounded-full border-4 border-orange hover:border-4 hover:border-orange px-5 py-2 text-orange hover:bg-orange hover:text-base"
-                            href="https://tonrunner.crolux.online"
+                            href="https://minireddit-sultanby.surge.sh/"
                         >
                             <span className="absolute -end-full transition-all group-hover:end-4">
                                 <svg
@@ -142,6 +142,29 @@ const Projects = () => {
                             </span>
 
                             <span className="text-sm font-bold transition-all group-hover:me-4"> DEMO </span>
+                        </a>
+                        <a
+                            className="group relative mt-2 inline-flex items-center overflow-hidden rounded-full border-4 border-orange hover:border-4 hover:border-orange px-5 py-2 text-orange hover:bg-orange hover:text-base"
+                            href="https://github.com/sultanby/reddit-client"
+                        >
+                            <span className="absolute -end-full transition-all group-hover:end-4">
+                                <svg
+                                    className="size-5 rtl:rotate-180"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3"
+                                    />
+                                </svg>
+                            </span>
+
+                            <span className="text-sm font-bold transition-all group-hover:me-4"> SOURCE </span>
                         </a>
                     </dd>
                 </div>
@@ -166,7 +189,7 @@ const Projects = () => {
                     <dd className="flex flex-col justify-center items-end">
                         <a
                             className="group relative inline-flex items-center overflow-hidden rounded-full border-4 border-orange hover:border-4 hover:border-orange px-5 py-2 text-orange hover:bg-orange hover:text-base"
-                            href="https://tonrunner.crolux.online"
+                            href="http://jammming-sultanby.surge.sh/"
                         >
                             <span className="absolute -end-full transition-all group-hover:end-4">
                                 <svg
@@ -189,7 +212,7 @@ const Projects = () => {
                         </a>
                         <a
                             className="group relative mt-2 inline-flex items-center overflow-hidden rounded-full border-4 border-orange hover:border-4 hover:border-orange px-5 py-2 text-orange hover:bg-orange hover:text-base"
-                            href="https://tonrunner.crolux.online"
+                            href="https://github.com/sultanby/jammming"
                         >
                             <span className="absolute -end-full transition-all group-hover:end-4">
                                 <svg
@@ -236,7 +259,7 @@ const Projects = () => {
                     <dd className="flex flex-col justify-center items-end">
                         <a
                             className="group relative inline-flex items-center overflow-hidden rounded-full border-4 border-orange hover:border-4 hover:border-orange px-5 py-2 text-orange hover:bg-orange hover:text-base"
-                            href="https://tonrunner.crolux.online"
+                            href="https://flashcards-sultanby.surge.sh/"
                         >
                             <span className="absolute -end-full transition-all group-hover:end-4">
                                 <svg
@@ -259,7 +282,7 @@ const Projects = () => {
                         </a>
                         <a
                             className="group relative mt-2 inline-flex items-center overflow-hidden rounded-full border-4 border-orange hover:border-4 hover:border-orange px-5 py-2 text-orange hover:bg-orange hover:text-base"
-                            href="https://tonrunner.crolux.online"
+                            href="https://github.com/sultanby/flashcards"
                         >
                             <span className="absolute -end-full transition-all group-hover:end-4">
                                 <svg
@@ -303,7 +326,7 @@ const Projects = () => {
                     <dd className="flex flex-col justify-center items-end">
                         <a
                             className="group relative inline-flex items-center overflow-hidden rounded-full border-4 border-orange hover:border-4 hover:border-orange px-5 py-2 text-orange hover:bg-orange hover:text-base"
-                            href="https://tonrunner.crolux.online"
+                            href="https://sultanby.github.io/table_tennis_club/"
                         >
                             <span className="absolute -end-full transition-all group-hover:end-4">
                                 <svg
@@ -326,7 +349,7 @@ const Projects = () => {
                         </a>
                         <a
                             className="group relative mt-2 inline-flex items-center overflow-hidden rounded-full border-4 border-orange hover:border-4 hover:border-orange px-5 py-2 text-orange hover:bg-orange hover:text-base"
-                            href="https://tonrunner.crolux.online"
+                            href="https://github.com/sultanby/table_tennis_club"
                         >
                             <span className="absolute -end-full transition-all group-hover:end-4">
                                 <svg

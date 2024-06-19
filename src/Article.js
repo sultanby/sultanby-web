@@ -22,8 +22,8 @@ function Article() {
   }
 
   return (
-    <div className="w-3/5 mx-auto">
-      <h1 className="my-12 text-3xl text-black font-bold lg:text-4xl">{article.title}</h1>
+    <div className="w-4/5 md:w-3/5 lg:w-2/5 mx-auto mb-12">
+      <h1 className="mt-32 mb-12 text-3xl text-black font-bold lg:text-4xl">{article.title}</h1>
       <ReactMarkdown rehypePlugins={[rehypeHighlight]}>{article.content}</ReactMarkdown>
     </div>
   );
